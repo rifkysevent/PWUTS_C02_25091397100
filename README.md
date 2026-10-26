@@ -60,3 +60,6 @@ Kafe-In/
 
 ## Kesesuaian dengan Ketentuan UTS
 Proyek ini disusun dengan mengacu pada ketentuan UTS Pemrograman Web, yaitu penggunaan `index.html` sebagai layout utama, HTML/CSS/JavaScript atau jQuery, pemuatan halaman konten dengan Ajax, halaman interaktif, serta formulir transaksi yang dilengkapi validasi JavaScript/jQuery.
+
+## Link Tampilan
+https://rifkysevent.github.io/PWUTS_C02_25091397100/
