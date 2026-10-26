@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kafe-in</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo" id="judul-header">Kafe-in</h1>
+
+      <button
+        id="btn-keranjang"
+        class="btn-keranjang"
+        aria-label="Buka keranjang"
+      >
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span id="jumlah-keranjang">0</span>
+      </button>
+    </header>
+
+    <main id="konten-utama">
+      <p>Memuat Halaman...</p>
+    </main>
+
+    <nav class="bottom-nav">
+      <a href="#" class="nav-item" data-page="history.html">
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        <small>Riwayat</small>
+      </a>
+
+      <a href="#" class="nav-item active" data-page="home.html">
+        <i class="fa-solid fa-house"></i>
+        <small>Beranda</small>
+      </a>
+
+      <a href="#" class="nav-item" data-page="riview.html">
+        <i class="fa-solid fa-star"></i>
+        <small>Ulasan</small>
+      </a>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

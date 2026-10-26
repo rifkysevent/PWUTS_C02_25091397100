@@ -1,0 +1,45 @@
+<section id="halaman-checkout">
+  <form id="form-checkout">
+    <label for="nama-pelanggan">Nama pelanggan</label>
+    <input
+      type="text"
+      id="nama-pelanggan"
+      name="nama"
+      placeholder="Masukkan nama"
+      required
+    />
+
+    <label for="nomor-meja">Nomor meja</label>
+    <input
+      type="number"
+      id="nomor-meja"
+      name="nomor_meja"
+      placeholder="Masukkan nomor meja"
+      min="1"
+      required
+    />
+
+    <label for="nomor-telepon">Nomor telepon</label>
+    <input
+      type="tel"
+      id="nomor-telepon"
+      name="telepon"
+      placeholder="Contoh: 08123456790"
+      inputmode="numeric"
+      required
+    />
+
+    <label for="catatan-pesanan">Catatan pesanan</label>
+    <textarea
+      id="catatan-pesanan"
+      name="catatan"
+      placeholder="Contoh: es sedikit"
+    ></textarea>
+
+    <div class="kartu-ringkasan">
+      <div id="ringkasan-checkout"></div>
+    </div>
+
+    <button type="submit" id="btn-kirim-pesanan">Buat Pesanan</button>
+  </form>
+</section>
